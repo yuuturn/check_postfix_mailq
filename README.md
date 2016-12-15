@@ -26,6 +26,6 @@ set nrpe configuration.
 example:
 
     ## warn at 100 mail queue, critical at 300 mail queue
-    command[check_nagios_procs]=/usr/lib64/nagios/plugins/check_postfix_mailq.sh 100 300
+    command[check_postfix_mailq]=/usr/lib64/nagios/plugins/check_postfix_mailq.sh 100 300
 
 and resstart nrpe.
